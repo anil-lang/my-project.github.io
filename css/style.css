@@ -1,0 +1,35 @@
+.dropdown-menu {
+    background-color: darkgreen;
+    margin-top:6px;
+    padding: 15px;
+}
+
+.dropdown-menu ul {
+    /* text-align: center; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu.show {
+    display: flex;
+}
+.dropdown-menu li a {
+    padding: 8px;
+    color: #fff;
+}
+
+.dropdown-menu li a:hover {
+    background-color: aqua;
+}
+
+.dropdown-menu li:first-child a {
+    font-weight: bolder;
+    font-size: 15px;
+    color: brown;
+}
+@media only screen and (min-width:1200px) {
+    .dropdown-menu.show {
+        display: flex;
+    }
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>श्री सिद्धबली धाम मंदिर</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
+    <link rel="stylesheet" href="css/bootstrap5.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        #header {
+            background: yellowgreen;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: blue;
+        }
+        #header-icon i{
+            transition: 0.3s;
+        }
+        #header-icon i:hover{
+            color:#fff;
+        }
+        #footer {
+            background-color: #343a40
+        }
+
+        #footer h1,
+        p {
+            color: gray;
+        }
+
+        #footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #footer ul a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        #footer ul a:before {
+            content: "";
+            content: "\f2b5";
+            font-family: fontAwesome;
+            margin-right: 5px;
+        }
+
+        #main-footer {
+            background-color: gray;
+            border-radius: 10px;
+        }
+
+        #main-footer p {
+            color: white;
+        }
+        .dropdown-menu .dropdown-item{
+            transition:0.3;
+        }
+        .dropdown-menu .dropdown-item:hover{
+            font-size: 18px;
+        }
+        .dropdown-menu .dropdown-item:before{
+            content: "\f0a4";
+            font-family: fontAwesome;
+            margin-right:5px;
+        }
+        #contects:target{
+            border:1px dooted #fff;
+            border-radius: 25px;
+            background:slateblue;
+            color:brown;
+        }
+        #heading h1::after{
+            content: "\f0ac";
+            font-family: fontAwesome;
+            margin-left: 5px;
+        }
+        #about h1:after{
+            content: " About-by-\f165-budhaPark";
+            font-family: fontAwesome;
+            margin-left: 5px;
+        }
+        #history h2:after{
+            content: " History-Of-\f165-BudhaPark";
+            font-family: fontAwesome;
+            margin-left: 5px;
+        }
+        #testimonial p{
+            position: relative;
+            color:black;
+            margin:15px 0px;
+            padding:15px 0px;
+        }
+        #testimonial p:after{
+            content:"";
+            position:absolute;
+            top:100%;
+            left:30%;
+            width:170px;
+            height:5px;
+            background:yellowgreen;
+        }
+        #testimonialInner .carousel-item{
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <a href="" class="navbar-brand">
+                            Company-name
+                        </a>
+
+                        <button class="navbar-toggler" data-target="#my" data-toggle="collapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse text-center" id="my">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item"><a href="" class="nav-link text-success" active><i class="fa fa-home"> home</i></a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa fa-backward"> Menu</i></a></li>
+                                <li class="nav-item dropdown">
+                                 <a href="" class="nav-link dropdown-toggle"data-toggle="dropdown"><i class="fa fa-bicycle"> Service</i></a>
+                                  <div class="dropdown-menu text-center">
+                                    <a href="srevices.html" class="dropdown-item"><i class="fa fa-rocket text-info"> Rocket</i></a>
+                                    <a href="srevices.html" class="dropdown-item"><i class="fa fa-motorcycle text-danger"> Bike</i></a>
+                                    <a href="srevices.html" class="dropdown-item"><i class="fa fa-bicycle text-warning"> cycle</i></a>
+                                    <a href="srevices.html" class="dropdown-item"><i class="fa fa-car text-primary"> Car</i></a>
+                                    <a href="srevices.html" class="dropdown-item"><i class="fa fa-bus text-info"> Bus</i></a>
+                                  </div>
+                                </li>
+                                <li class="nav-item"><a href="#contects" class="nav-link"><i class="fa fa-plug"> Contects</i></a></li>
+                            </ul>
+                            <div class="navbar-brand"id="header-icon">
+                                <div class="row mb-3">
+                                    <div class="col d-flex justify-content-between">
+                                        <a href=""> <i class="fa fa-brands fa-whatsapp"></i> </a>
+                                        <a href=""> <i class="fa fa-brands fa-facebook"></i> </a>
+                                        <a href=""> <i class="fa fa-brands fa-twitter"></i> </a>
+                                        <a href=""> <i class="fa fa-brands fa-instagram"></i> </a>
+                                        <a href=""> <i class="fa fa-brands fa-linkedin"></i> </a>
+                                        <a href=""> <i class="fa fa-brands fa-skype"></i> </a>
+                                    </div>
+                            </div>
+                               
+                                <form action="" class="form-inline">
+                                    <input type="search" class="form-control" placeholder="search">
+                                    <button class="btn btn-sm btn-primary" disabled>
+                                        Loading..<span class="spinner-border spinner-border-sm text-light"></span>
+                                    </button>
+                                </form>
+                           </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-end =============== -->
+    <div class="container">
+        <div class="row"id="testimonial">
+            <div class="col-md-6 border mx-auto">
+                <p class="display-4 text-center">Clients-Testimonial</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <div class="carousel slide" data-ride="carousel" id="myCarousel">
+                    <div class="carousel-inner"id="testimonialInner">
+                        <div class="carousel-item active"data-interval="2000">
+                           <p class="lead"><sup><i class="fa fa-quote-left text-secondary display-4"></i></sup> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic, maiores, modi obcaecati aliquid voluptatibus vel sit, laudantium tium recusandae nostrum libero. Quas velit incidunt magni quaerat <i class="fa fa-quote-right text-secondary display-5"></i> </p>
+                           <div class="col-md-6 my-5 mx-auto">
+                            <p class="lead text-center">Lorem ipsum dolor sit amet.</p>
+                            <hr>
+                            <p class="lead text-center">www.google.com</p>
+                           </div>
+                        </div>
+                        <div class="carousel-item "data-interval="2000">
+                            <p class="lead"><sup><i class="fa fa-quote-left text-secondary display-4"></i></sup> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor Lorem ipsum dolor sit . <i class="fa fa-quote-right text-secondary display-5"></i> </p>
+                            <div class="col-md-6 my-5 mx-auto">
+                              <p class="lead text-center">Lorem ipsum dolor sit amet lorem10</p>
+                              <hr>
+                              <p class="lead text-center">www.google.com</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item"data-interval="2000">
+                           <p class="lead"><sup><i class="fa fa-quote-left text-secondary display-4"></i></sup> कोटद्वार  नगर का विकास वैसे तो १८९० में रेल के आगमन से ही शुरू हो गया था, किन्तु वास्तविक बसावट
+                            प्रमुखतः ५० के दशक में नगर पालिका के निर्माण के बाद ही हुई। <i class="fa fa-quote-right text-secondary display-5"></i> </p>
+                            <div class="col-md-6 my-5 mx-auto">
+                                <p class="lead text-center">Lorem ipsum dolor sit amet.</p>
+                                <hr>
+                                <p class="lead text-center">www.google.com</p>
+                               </div>
+                        </div>
+                    </div>
+                    <a href="#myCarousel" class="carousel-control-prev"data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#myCarousel" class="carousel-control-next"data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- testimonial--end ==================-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5"id="heading">
+                <marquee behavior="alternate" direction="left" scrollamount="11s">
+                    <h1 class="display-3 text-success">budha-Park</h1>
+                </marquee>
+            </div>
+            <div class="col-md-10 my-5"id="about">
+                <h1 class="display-4 text-muted"></h1>
+                <hr>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tempore laudantium
+                    quia dolore ab. Ipsam quia tempore excepturi nostrum ad quibusdam dolorum sed nihil officiis eaque,
+                    totam vel accusamus vitae perferendis eos minima vero! At hic dolorem nemo. Nobis quam architecto
+                    aspernatur! Enim maxime harum impedit optio, itaque molestias 
+                </p>
+            </div>
+            <div class="col-md-10 mx-auto border my-4">
+                <div clindex.htmle-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lc_m-jKLs4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- first- content-end =========================================-->
+        
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 my-5"id="history">
+                <h2 class="text-muted"></h2>
+                <hr>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tempore laudantium
+                    quia dolore ab. Ipsam quia tempore excepturi nostrum ad quibusdam dolorum sed nihil officiis eaque,
+                    totam vel accusamus vitae perferendis eos minima vero! At hic dolorem nemo. Nobis quam architecto
+                    aspernatur! Enim maxime harum impedit optio, itaque molestias ratione.</p>
+            </div>
+            <div class="col-md-6 my-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1773434.2554933552!2d76.21809589374998!3d29.756272299999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39097b83def01e5d%3A0x7f1fe1ee6ccafe!2sBuddha%20Park%2C%20Kotdwar!5e0!3m2!1sen!2sin!4v1690977807949!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+<!-- second content-end =========================================-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion" id="myaccordion">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <button class="btn btn-primary btn-block"data-target="#one" data-toggle="collapse"><i class="fa fa-globe">  Budha-Park </i></button>
+                            </div>
+                            <div class="collapse" id="one" data-parent="#myaccordion">
+                                <div class="card-body">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <img src="img/ukimg/ukimg11.jpg"class="d-block w-100" alt="">
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aperiam provident voluptatem placeat ducimus minus quisquam reiciendis! Quae sequi, illo quibusdam maiores iusto fugit sapiente.</p>
+                                    <button class="btn btn-sm btn-warning">
+                                        process.. <span class="spinner-border spinner-border-sm text-light"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <button class="btn btn-danger btn-block"data-target="#two" data-toggle="collapse"><i class="fa fa-globe"> Budha-Park</i></button>
+                            </div>
+                            <div class="collapse" id="two" data-parent="#myaccordion">
+                                <div class="card-body">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <img src="img/ukimg/ukimg11.jpg"class="d-block w-100" alt="">
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aperiam provident voluptatem placeat ducimus minus quisquam reiciendis! Quae sequi, illo quibusdam maiores iusto fugit sapiente.</p>
+                                    <button class="btn btn-sm btn-danger">
+                                        process.. <span class="spinner-border spinner-border-sm text-light"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <button class="btn btn-warning btn-block"data-target="#three" data-toggle="collapse"><i class="fa fa-globe"> Budha-Park </i></button>
+                            </div>
+                            <div class="collapse" id="three" data-parent="#myaccordion">
+                                <div class="card-body">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <img src="img/ukimg/ukimg11.jpg"class="d-block w-100" alt="">
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aperiam provident voluptatem placeat ducimus minus quisquam reiciendis! Quae sequi, illo quibusdam maiores iusto fugit sapiente.</p>
+                                    <button class="btn btn-sm btn-info">
+                                        process.. <span class="spinner-border spinner-border-sm text-light"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- accordiom-end ============================================== -->
+    <div id="footer">
+        <div class="container">
+            <div class="row" id="footer">
+                <div class="col-md-8 mx-auto text-center" id="contects">
+                    <h1>Company-Address</h1>
+                    <hr>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quisquam. Impedit
+                        consectetur et accusamus beatae dicta ullam iste adipisci itaque laborum ipsam inventore
+                        voluptatum facere, velit alias magni, tempore necessitatibus!</p>
+                    <p class="lead">NEAR CRADEL PUBLIC SCHOOL,
+                        NIMBUCHORD KOTDWARA ,
+                        UTTARKHAND PAURI GARHWALL,
+                        246149
+                        +917895458975
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="main-footer">
+                <div class="col-md-6">
+                    <p class="lead text-center">@Copyright--2023</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center">desingned By Anil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-end -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+</html>
