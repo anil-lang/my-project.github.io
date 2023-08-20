@@ -10,6 +10,21 @@
     .navbar-nav .nav-item .nav-link{
         color:#fff;
     }
+   #anil a{
+    transition: 0.3s;
+   }
+   #anil a:hover{
+   transform: scale(1.9);
+   color: #fff;
+   }
+   .prent a p{
+    transition: 0.3s;
+   }
+   .prent a p:hover{
+   transform: scale(1.2);
+   background-color:crimson;
+   }
+
        #mega-menu {
             position: static;
         }
