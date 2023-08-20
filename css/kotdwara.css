@@ -24,6 +24,14 @@
    transform: scale(1.2);
    background-color:crimson;
    }
+   .navbar-toggler{
+    border: 2px solid #fff;
+   }
+   .navbar-toggler-icon:after{
+    content: "\f150";
+    font-family: fontAwesome;
+    color: #4CA131;
+   }
 
        #mega-menu {
             position: static;
