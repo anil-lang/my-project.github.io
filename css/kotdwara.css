@@ -10,10 +10,13 @@
     .navbar-nav .nav-item .nav-link{
         color:#fff;
     }
-   #anil a{
+    .navbar-nav .nav-item .nav-link:hover{
+       color: #E6094E;
+    }
+   #akhil a{
     transition: 0.3s;
    }
-   #anil a:hover{
+   #akhil a:hover{
    transform: scale(1.9);
    color: #fff;
    }
