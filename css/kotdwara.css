@@ -128,6 +128,9 @@
             cursor:pointer;
             font-weight: 500px;
         }
+    .filter{
+        filter: drop-shadow(10px 10px 10px black);
+    }
     #history p,h3,h1{
         color:gray;
     }
